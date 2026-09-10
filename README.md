@@ -1,5 +1,8 @@
 ###### README.md >> markdown 
 # AppLAB
+
+[![MATLAB CI](https://github.com/teremuhamblin/AppLAB/actions/workflows/matlab-ci.yml/badge.svg)](https://github.com/teremuhamblin/AppLAB/actions/workflows/matlab-ci.yml)
+
 >Computer Vision en **MATLAB**
 
 Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
