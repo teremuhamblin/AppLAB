@@ -1,8 +1,9 @@
-###### README.md >> markdown 
-# AppLAB
+###### README.md >> markdown
 ![Version](https://img.shields.io/badge/AppLAB-v1.0.0-blue)
 ![MATLAB](https://img.shields.io/badge/MATLAB-R2026a-blue?logo=mathworks)
-![Status](https://img.shields.io/badge/Status-Stable-success)
+![Status](https://img.shields.io/badge/Status-Stable-purple)
+
+# AppLAB
 
 [![MATLAB CI](https://github.com/teremuhamblin/AppLAB/actions/workflows/matlab-ci.yml/badge.svg)](https://github.com/teremuhamblin/AppLAB/actions/workflows/matlab-ci.yml)
 
