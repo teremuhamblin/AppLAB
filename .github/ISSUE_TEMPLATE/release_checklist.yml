@@ -1,0 +1,15 @@
+name: Release Checklist
+description: Vérification avant publication d'une version
+title: "[RELEASE] "
+labels: ["release"]
+body:
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist de release
+      options:
+        - label: Code testé et validé ✅
+        - label: Documentation mise à jour ✅
+        - label: README complet ✅
+        - label: Milestone clôturé ✅
+        - label: Tag version créé ✅
