@@ -24,7 +24,11 @@ Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
 ```text
 AppLAB/
 ├─ README.md
+├─ .gitignore
 ├─ main.m
+├─ .github/
+│  ├─ workflows/
+│  ├─ .gitkeep
 ├─ src/
 │  ├─ rgb_to_gray.m
 │  ├─ sobel_xy.m
