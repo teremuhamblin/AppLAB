@@ -1,4 +1,8 @@
-###### README.md >> markdown 
+###### README.md >> markdown
+
+![Dataset](https://img.shields.io/badge/Dataset-4_images-blue)
+![Images](https://img.shields.io/badge/Images-JPEG-purple)
+
 # Dossier `data/`
 - Images d'exemple AppLAB
 
