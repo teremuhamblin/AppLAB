@@ -1,0 +1,9 @@
+name: Lint MATLAB Code
+on: [push]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Lint MATLAB files
+        run: echo "Linting MATLAB code..."
