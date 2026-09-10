@@ -1,0 +1,132 @@
+##############################################
+# 🪖 .gitignore — AppLAB v1.0.0 (MATLAB)
+# Projet : Vision par ordinateur / MATLAB
+# Auteur : Teremu (The MadDoG)
+##############################################
+
+###############
+# 🔥 LOGS
+###############
+*.log
+*.log.*
+logs/
+log/
+
+###############
+# ⚡ TEMP / CACHE
+###############
+*.tmp
+*.temp
+*.cache
+*.bak
+*.swp
+*.swo
+*.pid
+*.lock
+tmp/
+cache/
+
+###############
+# 🧠 MATLAB — fichiers générés
+###############
+# Fichiers de workspace
+*.mat
+*.mex*
+*.asv
+
+# Fichiers auto‑save MATLAB
+*.autosave
+
+# Fichiers de préférences
+*.prf
+
+# Fichiers de code généré
+codegen/
+slprj/
+sccprj/
+work/
+
+# Fichiers de simulation
+*.slxc
+*.slx
+*.mdl.r20*
+*.slx.r20*
+
+###############
+# 📸 IMAGES / RÉSULTATS
+###############
+# Images générées automatiquement
+*.png
+*.tif
+*.bmp
+
+# Résultats d’export
+results/
+output/
+exports/
+
+###############
+# 📦 PYTHON / MISC (si utilisé dans AppLAB)
+###############
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+###############
+# 🖥️ OS / SYSTEME
+###############
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+###############
+# 🛠️ IDE / EDITORS
+###############
+.vscode/
+.idea/
+*.orig
+
+###############
+# 📘 DOCUMENTATION
+###############
+_site/
+docs/.cache/
+docs/.temp/
+
+###############
+# 🧪 TESTS
+###############
+coverage/
+htmlcov/
+test-output/
+
+###############
+# 🪖 AppLAB — dossiers internes
+###############
+# Données brutes
+data/*.png
+data/*.bmp
+data/*.tif
+
+# Ne pas ignorer les images 1.jpg → 4.jpg
+!data/1.jpg
+!data/2.jpg
+!data/3.jpg
+!data/4.jpg
+
+###############
+# 🔒 ENVIRONNEMENTS
+###############
+.env
+.env.*
+*.secret
+*.key
+
+###############
+# ⚙️ CI/CD
+###############
+.github/workflows/*.tmp
+.github/workflows/*.bak
+.github/actions-cache/
+*.retry
