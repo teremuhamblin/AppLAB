@@ -56,6 +56,9 @@ AppLAB/
 ```
 
 ### Utilisation
+
+![Dependabot Status](https://img.shields.io/badge/Dependabot-AutoUpdate-blue?logo=dependabot)
+
 Ouvrir MATLAB, se placer dans le dossier `AppLAB` puis lancer :
 ```matlab
 main
