@@ -33,6 +33,9 @@ Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
    - `src/` : fonctions MATLAB
    - `data/` : images d'exemple
 
+![Docs](https://img.shields.io/badge/Documentation-Complete-blue?logo=readthedocs)
+![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-Active-purple?logo=github)
+
 - Architecture :
 ```text
 AppLAB/
