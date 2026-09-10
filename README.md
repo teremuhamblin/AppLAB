@@ -21,6 +21,7 @@ Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
    - `data/` : images d'exemple
 
 - Architecture :
+```text
 AppLAB/
 ├─ README.md
 ├─ main.m
@@ -39,6 +40,7 @@ AppLAB/
    ├─ 2.jpg
    ├─ 3.jpg
    └─ 4.jpg
+```
 
 ### Utilisation
 Ouvrir MATLAB, se placer dans le dossier `AppLAB` puis lancer :
