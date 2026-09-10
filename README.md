@@ -70,3 +70,7 @@ Ouvrir MATLAB, se placer dans le dossier `AppLAB` puis lancer :
 ```matlab
 main
 ```
+
+![LegionOS](https://img.shields.io/badge/LegionOS-Termux_Military-green?logo=linux)
+![GCM](https://img.shields.io/badge/Groupement_des_Commandos_Montagne-Elite-red)
+![The MadDoG](https://img.shields.io/badge/The_MadDoG-Approved-red)
