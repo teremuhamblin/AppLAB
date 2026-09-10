@@ -1,0 +1,24 @@
+name: Bug Report
+description: Signaler un bug dans AppLAB
+title: "[BUG] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description du bug
+      description: Décrivez le problème rencontré
+  - type: textarea
+    id: steps
+    attributes:
+      label: Étapes pour reproduire
+      description: Listez les étapes pour reproduire le bug
+  - type: textarea
+    id: expected
+    attributes:
+      label: Comportement attendu
+  - type: textarea
+    id: environment
+    attributes:
+      label: Environnement
+      description: MATLAB version, OS, etc.
