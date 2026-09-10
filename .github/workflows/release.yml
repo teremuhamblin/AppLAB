@@ -1,0 +1,12 @@
+name: Release AppLAB
+on:
+  push:
+    tags:
+      - 'v*.*.*'
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create GitHub Release
+        run: echo "Creating release for AppLAB v1.0.0"
