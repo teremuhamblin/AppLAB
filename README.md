@@ -6,6 +6,9 @@
 >Computer Vision en **MATLAB**
 
 Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
+
+[![Lint MATLAB Code](https://github.com/teremuhamblin/AppLAB/actions/workflows/lint.yml/badge.svg)](https://github.com/teremuhamblin/AppLAB/actions/workflows/lint.yml)
+
 ```md
 - Conversion RGB → niveau de gris
 - Détection de coins (Harris)
