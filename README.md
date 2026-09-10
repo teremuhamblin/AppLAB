@@ -18,6 +18,9 @@ Ce projet regroupe des briques de base de vision par ordinateur en MATLAB :
 ```
 
 ### Structure :
+
+[![Build Docs](https://github.com/teremuhamblin/AppLAB/actions/workflows/docs.yml/badge.svg)](https://github.com/teremuhamblin/AppLAB/actions/workflows/docs.yml)
+
 - Fonctions
    - `main.m` : script principal de démonstration
    - `src/` : fonctions MATLAB
