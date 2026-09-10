@@ -1,4 +1,10 @@
 ###### README.md >> markdown
+
+![Computer Vision](https://img.shields.io/badge/Computer_Vision-Modules-blue)
+![Sobel](https://img.shields.io/badge/Sobel-Operator-success)
+![Harris](https://img.shields.io/badge/Harris-Detector-success)
+![RANSAC](https://img.shields.io/badge/RANSAC-Robust-success)
+
 - Dossier src/ du projet `AppLAB`.  
 Il présente chaque module, son rôle, et la logique générale du dossier.
 
