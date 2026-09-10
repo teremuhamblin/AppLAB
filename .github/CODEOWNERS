@@ -1,0 +1,9 @@
+###### CODEOWNERS >> markdown 
+- AppLAB
+
+# Les responsables du code et des revues
+
+* @teremuhamblin 
+/src/ @teremuhamblin 
+/data/ @teremuhamblin 
+/.github/ @teremuhamblin 
