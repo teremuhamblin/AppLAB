@@ -93,8 +93,6 @@ Ce dossier regroupe les briques fondamentales nécessaires pour :
 
 >Il constitue la base du pipeline AppLAB, utilisé dans main.m.
 
----
-
 ### 📘 Utilisation
 1. Dans MATLAB :
 ```matlab
