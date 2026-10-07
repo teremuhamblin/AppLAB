@@ -1,0 +1,164 @@
+`
+docs/AppLAB.adoc
+`
+
+📘 AppLAB.adoc — Quantum‑Era / Military‑Tech Edition
+
+Voici ton fichier complet, prêt à copier dans docs/AppLAB.adoc :
+
+`adoc
+= AppLAB — Laboratoire de Vision par Ordinateur
+Teremu — Quantum‑Era Division
+v2.0.0, 2026-10-08
+:doctype: book
+:toc: left
+:toclevels: 4
+:sectnums:
+:icons: font
+:source-highlighter: coderay
+
+== 1. Doctrine Opérationnelle
+
+AppLAB est un laboratoire de vision par ordinateur conçu pour fournir une base
+technique robuste, modulaire et extensible. Il sert de terrain d’expérimentation
+pour les pipelines de traitement d’images, la géométrie épipolaire et la
+reconstruction 3D.
+
+L’objectif : disposer d’un environnement MATLAB discipliné, structuré et
+military‑tech, permettant d’exécuter des modules indépendants ou un pipeline
+complet.
+
+== 2. Architecture Générale
+
+AppLAB est structuré selon une doctrine stricte :
+
+```text
+AppLAB/
+ ├── main.m
+ ├── src/
+ │    ├── rgbtogray.m
+ │    ├── sobel_xy.m
+ │    ├── harris_detector.m
+ │    ├── punkt_korrespondenzen.m
+ │    ├── F_ransac.m
+ │    ├── TRausE.m
+ │    ├── rekonstruktion.m
+ │    └── rueckprojektion.m
+ ├── data/
+ │    ├── soccer_4.jpg
+ │    └── soccer_5.jpg
+ └── docs/
+      └── AppLAB.adoc
+```
+
+Chaque module est autonome, documenté, et peut être testé individuellement.
+
+== 3. Pipeline Opérationnel
+
+Le pipeline complet exécuté par main.m suit les étapes suivantes :
+
+=== 3.1 Prétraitement
+* Chargement des images
+* Conversion RGB → niveaux de gris
+* Calcul des gradients (Sobel)
+
+=== 3.2 Détection de caractéristiques
+* Détection de coins (Harris)
+* Extraction de correspondances (SURF)
+
+=== 3.3 Géométrie épipolaire
+* Estimation de la matrice fondamentale F via RANSAC
+* Calcul de la matrice essentielle E
+* Décomposition en (R, t)
+
+=== 3.4 Reconstruction 3D
+* Triangulation des points
+* Reprojection dans l’image 1
+* Visualisation 3D
+
+== 4. Modules Techniques
+
+=== rgbtogray.m
+Conversion RGB → intensité.  
+Optimisé pour pipeline haute cadence.
+
+=== sobel_xy.m
+Calcul des gradients X/Y, magnitude et direction.
+
+=== harris_detector.m
+Détection de coins robuste, configurable.
+
+=== punkt_korrespondenzen.m
+Extraction automatique de correspondances via SURF.
+
+=== F_ransac.m
+Estimation robuste de F avec élimination des outliers.
+
+=== TRausE.m
+Décomposition de la matrice essentielle en rotations et translation.
+
+=== rekonstruktion.m
+Triangulation linéaire des points 3D.
+
+=== rueckprojektion.m
+Reprojection des points 3D dans l’image.
+
+== 5. Standards de Qualité
+
+AppLAB suit les standards Quantum‑Era :
+
+* Code strictement modulaire
+* Pas de dépendances externes
+* Figures nommées pour CI/CD
+* Logs tactiques pour debugging
+* Compatibilité MATLAB R2020+ minimum
+* Documentation AsciiDoc militaire‑tech
+
+== 6. Roadmap
+
+=== v2.1 — Modules avancés
+* ORB / SIFT
+* Reconstruction dense
+* Bundle Adjustment
+* Calibration automatique
+
+=== v3.0 — Vision tactique
+* SLAM minimal
+* Tracking multi‑frame
+* Optimisation GPU
+
+== 7. Licence
+
+Projet open‑source, libre d’utilisation, modification et extension.
+
+== 8. Auteur
+
+Teremu — Quantum‑Era Division  
+Architecte Vision & Systèmes MATLAB  
+France, 2026
+`
+
+---
+
+📂 Où placer AppLAB.adoc ?
+
+Oui : dans docs/, c’est la bonne pratique.
+
+Structure recommandée :
+
+`
+AppLAB/
+ └── docs/
+      ├── AppLAB.adoc
+      ├── README.adoc (optionnel)
+      ├── pipeline.adoc (optionnel)
+      └── modules/
+           ├── harris_detector.adoc
+           ├── F_ransac.adoc
+           └── reconstruction.adoc
+`
+
+Tu peux même activer GitHub Pages pour transformer automatiquement tes .adoc en documentation web.
+
+---
+
