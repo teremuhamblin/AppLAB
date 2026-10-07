@@ -43,13 +43,15 @@ VOIR ~/docs/structure.md
 
 ---
 
-🚀 Utilisation
+### 🚀 Utilisation
 
-Ouvrir MATLAB, se placer dans le dossier AppLAB, puis exécuter :
+1. Ouvrir MATLAB
+2. se placer dans le dossier AppLAB,
+3. puis exécuter :
 
-`matlab
+```matlab
 main
-`
+```
 
 Le script lance automatiquement :
 - le prétraitement,  
@@ -60,21 +62,21 @@ Le script lance automatiquement :
 
 ---
 
-🧬 Pipeline de Vision (Quantum‑Era)
+### 🧬 Pipeline de Vision (Quantum‑Era)
 
-`text
+```text
 data/ → rgbtogray → sobelxy → harrisdetector
       → punktkorrespondenzen → Fransac → achtpunktalgorithmus
       → TRausE → rekonstruktion → rueckprojektion → résultats
-`
+```
 
 Pipeline modulaire, testable, CI/CD‑ready, documenté, scalable.
 
 ---
 
-📚 Documentation
+### 📚 Documentation
 
-La documentation est générée automatiquement via GitHub Actions :
+La documentation est générée automatiquement via *GitHub Actions* :
 
 - Modules MATLAB
 - Pipeline complet
@@ -86,7 +88,7 @@ GitHub Pages est activé pour une consultation directe.
 
 ---
 
-🛡️ Standards & Qualité
+### 🛡️ Standards & Qualité
 
 - Lint MATLAB automatique  
 - CI MATLAB (tests, build, validation)  
@@ -97,17 +99,14 @@ GitHub Pages est activé pour une consultation directe.
 
 ---
 
-⚔️ Identité & Style du Projet
-
-https://img.shields.io/badge/LegionOS-Termux_Military-green?logo=linux
-https://img.shields.io/badge/GroupementdesCommandos_Montagne-Elite-red
-https://img.shields.io/badge/The_MadDoG-Approved-red
+### ⚔️ Identité
+- Style du Projet
 
 Projet validé par The MadDoG, stylé LegionOS, esprit Commandos Montagne.
 
 ---
 
-🧩 Extensions Futures (Roadmap Innovante)
+### 🧩 Extensions Futures (Roadmap Innovante)
 
 - Reconstruction dense (StereoBM / SGBM)  
 - Intégration OpenCV (Python bridge)  
@@ -120,7 +119,7 @@ Projet validé par The MadDoG, stylé LegionOS, esprit Commandos Montagne.
 
 ---
 
-📜 Licence
+### 📜 Licence
 
 Projet open-source, libre d’utilisation pour l’apprentissage, la recherche et les démonstrations.
 
