@@ -1,26 +1,20 @@
-###### README.md >> markdown
-# AppLAB
->Vision Par Ordinateur MATLAB
-   - Quantum.Era Edition
-
----
+# 👉 AppLAB 
+### 📘 Vision Par Ordinateur MATLAB
+- (Quantum‑Era / Military‑Tech Edition)
 
 ### 🔭 Présentation
 
->AppLAB est un laboratoire de vision par ordinateur en MATLAB, conçu pour l’apprentissage, la démonstration et la recherche.  
-
+AppLAB est un laboratoire de vision par ordinateur en MATLAB, conçu pour l’apprentissage, la démonstration et la recherche avancée.  
 - Il regroupe les briques essentielles du pipeline de reconstruction 3D, d’analyse d’images et de géométrie épipolaire.
 
-- Objectif :
-   - fournir une base claire, modulaire,
-   - pédagogique et extensible pour les projets de Computer Vision.
+> Mission : fournir une base claire, modulaire, pédagogique et extensible pour les projets de Computer Vision nouvelle génération.
 
 ---
 
 ### 🧠 Fonctionnalités
-- *Core Vision Modules*
+- (Core Vision Modules)
 
-```md
+```markdown
 - Conversion RGB → niveau de gris
 - Détection de coins (Harris)
 - Gradients de Sobel (X, Y, magnitude, orientation)
@@ -36,8 +30,18 @@
 
 ### 📁 Structure du Projet
 
-- Dossiers principaux et Architecture complète
+- Dossiers principaux
+
 ```markdown
+- main.m — Script principal de démonstration  
+- src/ — Modules MATLAB (vision, géométrie, reconstruction)  
+- data/ — Images d’exemple  
+- .github/ — CI/CD, lint, docs, workflows
+```
+
+- Architecture complète
+
+```text
 VOIR ~/docs/structure.md 
 ```
 
@@ -45,20 +49,18 @@ VOIR ~/docs/structure.md
 
 ### 🚀 Utilisation
 
-1. Ouvrir MATLAB
-2. se placer dans le dossier AppLAB,
-3. puis exécuter :
+- Ouvrir MATLAB, se placer dans le dossier AppLAB, puis exécuter :
 
 ```matlab
 main
 ```
 
-Le script lance automatiquement :
-- le prétraitement,  
-- la détection,  
-- les correspondances,  
-- l’estimation géométrique,  
-- la reconstruction 3D.
+- Le script lance automatiquement :
+   - le prétraitement,  
+   - la détection,  
+   - les correspondances,  
+   - l’estimation géométrique,  
+   - la reconstruction 3D.
 
 ---
 
@@ -76,13 +78,14 @@ Pipeline modulaire, testable, CI/CD‑ready, documenté, scalable.
 
 ### 📚 Documentation
 
-La documentation est générée automatiquement via *GitHub Actions* :
-
+La documentation est générée automatiquement via GitHub Actions :
+```markdown
 - Modules MATLAB
 - Pipeline complet
 - Maths & géométrie épipolaire
 - Exemples & démonstrations
 - Reconstruction 3D
+```
 
 GitHub Pages est activé pour une consultation directe.
 
@@ -99,23 +102,24 @@ GitHub Pages est activé pour une consultation directe.
 
 ---
 
-### ⚔️ Identité
+##÷ ⚔️ Identité
 - Style du Projet
 
 Projet validé par The MadDoG, stylé LegionOS, esprit Commandos Montagne.
 
 ---
 
-### 🧩 Extensions Futures (Roadmap Innovante)
+### 🧩 Extensions Futures
+- (Roadmap Innovante)
 
-- Reconstruction dense (StereoBM / SGBM)  
-- Intégration OpenCV (Python bridge)  
+   - Reconstruction dense (StereoBM / SGBM)  
+   - Intégration OpenCV (Python bridge)  
 - Visualisation 3D interactive  
-- Export OBJ/PLY  
-- Tests unitaires MATLAB (matlab.unittest)  
+   - Export OBJ/PLY  
+   - Tests unitaires MATLAB (matlab.unittest)  
 - Benchmarks automatiques via CI  
-- Modules SIFT / ORB / FAST  
-- Détection d’objets (HOG, Viola-Jones)  
+   - Modules SIFT / ORB / FAST  
+   - Détection d’objets (HOG, Viola-Jones)  
 
 ---
 
@@ -125,4 +129,4 @@ Projet open-source, libre d’utilisation pour l’apprentissage, la recherche e
 
 ---
 
-###### README.md mis à jour — Version Stable
+###### README.md Quantum‑Era — Terminé
