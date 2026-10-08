@@ -1,70 +1,82 @@
-# 👉 AppLAB 
-### 📘 Vision Par Ordinateur MATLAB
-- (Quantum‑Era / Military‑Tech Edition)
+###### ~/README.md >> markdown 
+# 🚀 AppLAB
+- Vision Par Ordinateur *MATLAB*
 
-### 🔭 Présentation
+```markdown
+- Version stable — v2.0
+```
 
-AppLAB est un laboratoire de vision par ordinateur en MATLAB, conçu pour l’apprentissage, la démonstration et la recherche avancée.  
-- Il regroupe les briques essentielles du pipeline de reconstruction 3D, d’analyse d’images et de géométrie épipolaire.
+---
 
-> Mission : fournir une base claire, modulaire, pédagogique et extensible pour les projets de Computer Vision nouvelle génération.
+### 🌌 Présentation Générale
+
+*AppLAB v2.0.0* est un *framework professionnel de vision par ordinateur en MATLAB*, conçu pour "```l’apprentissage, la recherche avancée, la démonstration scientifique, et la documentation GitHub Pages```"
+
+>> Il fournit une architecture modulaire, scalable, sécurisée, et académiquement rigoureuse, adaptée aux dépôts entreprise, universitaires, et R&D.
+
+### 🎯 Mission :
+Établir un laboratoire de `Computer Vision nouvelle génération`, documenté, reproductible, extensible, et conforme aux standards.
 
 ---
 
 ### 🧠 Fonctionnalités
-- (Core Vision Modules)
+- Core Vision Modules
 
 ```markdown
-- Conversion RGB → niveau de gris
-- Détection de coins (Harris)
-- Gradients de Sobel (X, Y, magnitude, orientation)
-- Extraction de correspondances (SURF/SIFT)
-- Estimation de la matrice fondamentale (algorithme des 8 points)
-- Estimation robuste via RANSAC
-- Décomposition de la matrice essentielle (R, T)
-- Reconstruction 3D par triangulation
-- Reprojection 3D → 2D
+✔️ Conversion RGB → niveau de gris  
+✔️ Détection de coins (Harris)  
+✔️ Gradients de Sobel (X, Y, magnitude, orientation)  
+✔️ Extraction de correspondances (SURF/SIFT)  
+✔️ Estimation de la matrice fondamentale (algorithme des 8 points)  
+✔️ Estimation robuste via RANSAC  
+✔️ Décomposition de la matrice essentielle (R, T)  
+✔️ Reconstruction 3D par triangulation  
+✔️ Reprojection 3D → 2D  
 ```
+
+>🧬 Pipeline vectorisé, modulaire, reproductible, CI/CD‑ready, optimisé pour dépôts entreprise.
 
 ---
 
 ### 📁 Structure du Projet
+- Enterprise‑Grade
 
-- Dossiers principaux
-
+>>📦 Dossiers principaux
 ```markdown
 - main.m — Script principal de démonstration  
 - src/ — Modules MATLAB (vision, géométrie, reconstruction)  
 - data/ — Images d’exemple  
-- .github/ — CI/CD, lint, docs, workflows
+- docs/ — Documentation GitHub Pages (scientifique + tutoriels + API)  
+- .github/ — CI/CD, lint, workflows, sécurité, gouvernance  
 ```
 
-- Architecture complète
-
+### 🧱 Architecture complète
 ```text
-VOIR ~/docs/structure.md 
+📄 Voir ~/docs/structure.md
 ```
 
 ---
 
-### 🚀 Utilisation
+>>🚀 Utilisation
 
-- Ouvrir MATLAB, se placer dans le dossier AppLAB, puis exécuter :
+Dans MATLAB :
 
-```matlab
+`matlab
 main
-```
+`
 
-- Le script lance automatiquement :
-   - le prétraitement,  
-   - la détection,  
-   - les correspondances,  
-   - l’estimation géométrique,  
-   - la reconstruction 3D.
+>>Le pipeline exécute automatiquement :
+- ✔️ Prétraitement  
+- ✔️ Détection  
+- ✔️ Correspondances  
+- ✔️ Estimation géométrique  
+- ✔️ Reconstruction 3D  
+- ✔️ Visualisation des résultats
 
 ---
 
-### 🧬 Pipeline de Vision (Quantum‑Era)
+### 🧬 Pipeline de Vision
+- Quantum‑Era
 
 ```text
 data/ → rgbtogray → sobelxy → harrisdetector
@@ -72,61 +84,77 @@ data/ → rgbtogray → sobelxy → harrisdetector
       → TRausE → rekonstruktion → rueckprojektion → résultats
 ```
 
-Pipeline modulaire, testable, CI/CD‑ready, documenté, scalable.
+⚙️ Pipeline scientifique, modulaire, documenté, reproductible, compatible GitHub Pages.
 
 ---
 
-### 📚 Documentation
+### 📚 Documentation GitHub Pages
+- Scientific
 
-La documentation est générée automatiquement via GitHub Actions :
+Documentation générée automatiquement via GitHub Actions :
+
 ```markdown
-- Modules MATLAB
-- Pipeline complet
-- Maths & géométrie épipolaire
-- Exemples & démonstrations
-- Reconstruction 3D
+✔️ Documentation scientifique (maths, géométrie, algorithmes)  
+✔️ Documentation des modules MATLAB  
+✔️ Tutoriels étape par étape  
+✔️ Démonstrations visuelles  
+✔️ Reconstruction 3D expliquée  
+✔️ Références académiques  
+✔️ Pages thématiques (épipolarité, triangulation, RANSAC)
 ```
 
-GitHub Pages est activé pour une consultation directe.
+📡 GitHub Pages activé pour une consultation directe, style futuriste, navigation optimisée.
 
 ---
 
-### 🛡️ Standards & Qualité
+### 🛡️ Standards & Qualité — Dépôt
 
-- Lint MATLAB automatique  
-- CI MATLAB (tests, build, validation)  
-- Dépendances surveillées via Dependabot  
-- Structure modulaire et pédagogique  
-- Code vectorisé MATLAB (optimisation)  
-- Documentation complète pour chaque module
+- ✔️ Lint MATLAB automatique  
+- ✔️ CI MATLAB (tests, build, validation)  
+- ✔️ Dépendances surveillées via Dependabot  
+- ✔️ Sécurisation des workflows GitHub  
+- ✔️ Conformité aux bonnes pratiques 2026  
+- ✔️ Documentation scientifique normalisée  
+- ✔️ Code vectorisé MATLAB (optimisation)  
+- ✔️ Structure modulaire et pédagogique  
+- ✔️ Versioning professionnel (SemVer)  
+- ✔️ README optimisé pour dépôts pro
 
 ---
 
-##÷ ⚔️ Identité
-- Style du Projet
+### ⚔️ Identité & Style du Projet
 
-Projet validé par The MadDoG, stylé LegionOS, esprit Commandos Montagne.
+- Projet validé et maintenu par **98731**. 
+- Signature Quantum‑Era :
+   - précision, discipline, efficacité, documentation premium.
 
 ---
 
 ### 🧩 Extensions Futures
-- (Roadmap Innovante)
+Roadmap Innovante
 
-   - Reconstruction dense (StereoBM / SGBM)  
-   - Intégration OpenCV (Python bridge)  
-- Visualisation 3D interactive  
-   - Export OBJ/PLY  
-   - Tests unitaires MATLAB (matlab.unittest)  
-- Benchmarks automatiques via CI  
-   - Modules SIFT / ORB / FAST  
-   - Détection d’objets (HOG, Viola-Jones)  
+```markdown
+⬜ Reconstruction dense (StereoBM / SGBM)  
+⬜ Intégration OpenCV (Python bridge)  
+⬜ Visualisation 3D interactive  
+⬜ Export OBJ/PLY  
+⬜ Tests unitaires MATLAB (matlab.unittest)  
+⬜ Benchmarks automatiques via CI  
+⬜ Modules SIFT / ORB / FAST  
+⬜ Détection d’objets (HOG, Viola-Jones)  
+⬜ Documentation scientifique avancée (PDF + Pages)
+```
 
 ---
 
 ### 📜 Licence
 
-Projet open-source, libre d’utilisation pour l’apprentissage, la recherche et les démonstrations.
+Projet open-source, libre d’utilisation pour :
+   - ✔️ l’apprentissage  
+   - ✔️ la recherche  
+   - ✔️ les démonstrations scientifiques  
+   - ✔️ les projets académiques et professionnels  
 
 ---
 
-###### README.md Quantum‑Era — Terminé
+###### 🏁 README.md >> Terminé 
