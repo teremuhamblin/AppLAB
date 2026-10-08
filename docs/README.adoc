@@ -1,0 +1,97 @@
+= AppLAB Documentation Center
+AppLAB v2.5.0 — Quantum‑Era / Military‑Tech Edition
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:icons: font
+
+== 1. Mission du dossier docs/
+Le dossier `docs/` constitue le centre documentaire officiel du projet AppLAB.  
+Il regroupe l’ensemble des ressources techniques, guides, spécifications, politiques et schémas nécessaires à la compréhension, l’utilisation et l’évolution du pipeline de vision.
+
+AppLAB v2.5.0 introduit une documentation unifiée, structurée et conforme aux standards Quantum‑Era 2026.
+
+---
+
+== 2. Contenu du dossier
+Le dossier `docs/` est organisé en sections thématiques permettant une navigation claire et militaire-tech.
+
+=== 2.1 Guides techniques
+- *pipeline.adoc* — Description complète du pipeline MATLAB  
+- *modules.adoc* — Documentation détaillée de chaque module  
+- *vision-core.adoc* — Spécifications du noyau de vision  
+- *math-geometry.adoc* — Notes sur la géométrie épipolaire et la reconstruction 3D  
+
+=== 2.2 Documentation utilisateur
+- *getting-started.adoc* — Installation, lancement, premières étapes  
+- *usage-examples.adoc* — Exemples d’utilisation du pipeline  
+- *troubleshooting.adoc* — Résolution des problèmes courants  
+
+=== 2.3 Gouvernance & Sécurité
+- *SECURITY.adoc* — Politique Zero‑Trust  
+- *MAINTAINERS.adoc* — Structure des équipes et responsabilités  
+- *GOVERNANCE.adoc* — Processus de décision et règles de contribution  
+- *CODEOWNERS.adoc* — Attribution des modules  
+
+=== 2.4 Roadmap & Historique
+- *ROADMAP.adoc* — Vision v2.5 → v3.0  
+- *CHANGELOG.adoc* — Historique complet des versions  
+
+=== 2.5 Ressources visuelles
+- *diagrams/* — Schémas du pipeline, architecture, flux de données  
+- *figures/* — Illustrations techniques, matrices, projections  
+
+---
+
+== 3. Standards Quantum‑Era / Military‑Tech
+La documentation AppLAB suit des standards stricts :
+
+=== 3.1 Structure
+- Format AsciiDoc unifié  
+- Table des matières automatique  
+- Numérotation des sections  
+- Organisation modulaire  
+
+=== 3.2 Style
+- Terminologie militaire-tech  
+- Cohérence visuelle  
+- Schémas normalisés  
+- Identité Quantum‑Era  
+
+=== 3.3 Qualité
+- Documentation exhaustive  
+- Mise à jour synchronisée avec le code  
+- Validation par les mainteneurs DOCS  
+- Conformité Zero‑Trust  
+
+---
+
+== 4. Contribution à la documentation
+Toute contribution au dossier `docs/` doit respecter :
+
+- Le *PULL_REQUEST_TEMPLATE*  
+- Les standards rédactionnels DOCS  
+- La validation par un maintainer DOCS  
+- La cohérence avec la version en cours (v2.5.0)
+
+Les fichiers critiques (SECURITY, GOVERNANCE, MAINTAINERS) nécessitent une validation du Lead Maintainer.
+
+---
+
+== 5. Vision
+Le dossier `docs/` est conçu pour évoluer vers :
+
+- Une documentation interactive GitHub Pages  
+- Des schémas dynamiques  
+- Une API documentaire pour AppLAB v3.0  
+- Un manuel complet de vision par ordinateur Quantum‑Era
+
+AppLAB v2.5.0 constitue la base stable de cette évolution.
+
+---
+
+== 6. Contact
+Pour toute question documentaire :  
+*Lead Maintainer* — @teremuhamblin  
+*DOCS Team* — @docs-maintainers
