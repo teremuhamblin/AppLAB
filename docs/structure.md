@@ -49,6 +49,8 @@ Images d’exemple pour tests, benchmarks et démonstrations.
 ---
 
 ### 📁 Architecture du Dépôt
+- Projet de base
+- v1.0
 
 ```text
 AppLAB/
