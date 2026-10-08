@@ -1,5 +1,6 @@
-# 🛡️ ALL-CONTRIBUTORS — Zero‑Trust Edition
-**AppLAB v2.0.0 — Quantum‑Era / Military‑Tech**
+# 🛡️ All-CONTRIBUTORS
+### Zero‑Trust Edition
+###### **AppLAB v2.0.0 — Quantum‑Era / Military‑Tech**
 
 Ce fichier liste les contributeurs du projet AppLAB selon une politique **Zero‑Trust** :
 - aucune donnée personnelle
@@ -10,7 +11,7 @@ Ce fichier liste les contributeurs du projet AppLAB selon une politique **Zero�
 
 ---
 
-## 🜂 Commandant Opérationnel
+### 🜂 Commandant Opérationnel
 - **@teremuhamblin**  
   - Rôle : Lead Architect, Core Maintainer  
   - Contributions : Architecture, Vision Pipeline, Documentation, Governance  
@@ -18,15 +19,15 @@ Ce fichier liste les contributeurs du projet AppLAB selon une politique **Zero�
 
 ---
 
-## 🜁 Major Analyste
-- **@MajorHamblin**  
+### 🜁 Analyste
+- **@98731**  
   - Rôle : Systems Analyst, Module Specialist  
   - Contributions : Optimisation, Revue tactique, Documentation avancée  
   - Statut : ✔ Actif
 
 ---
 
-## 🛡️ Politique Zero‑Trust
+### 🛡️ Politique Zero‑Trust
 - [x] Aucune donnée personnelle stockée  
 - [x] Aucune adresse email  
 - [x] Aucune photo ou avatar  
@@ -38,5 +39,5 @@ Ce fichier liste les contributeurs du projet AppLAB selon une politique **Zero�
 
 ---
 
-## 🔐 Mise à jour
-Toute modification doit être effectuée via une **Pull Request** et validée par le **Commandant Opérationnel**.
+### 🔐 Mise à jour
+Toute modification doit être effectuée via une **Pull Request** et validée.
