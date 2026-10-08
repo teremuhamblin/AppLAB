@@ -1,0 +1,168 @@
+= All-POLICE — Protocoles, Langages & Extensions Utilisés
+AppLAB v2.5.0 — Quantum‑Era / Military‑Tech Edition
+:doctype: book
+:toc: left
+:toclevels: 3
+:sectnums:
+:icons: font
+
+== 1. Mission du document
+Ce document décrit l’ensemble des langages, formats, extensions et outils utilisés dans le projet AppLAB v2.5.0.  
+Il sert de référence centrale pour comprendre la structure technique, les standards documentaires et les conventions de développement.
+
+AppLAB utilise un écosystème hybride combinant MATLAB, documentation multi‑formats et gouvernance militaire-tech.
+
+---
+
+== 2. MATLAB — Langage principal du pipeline
+MATLAB est le moteur technique du projet AppLAB.  
+Il est utilisé pour :
+
+- Le traitement d’images
+- La géométrie épipolaire
+- La reconstruction 3D
+- Les modules du pipeline (Harris, SURF, RANSAC, Essentielle, Triangulation)
+- Les visualisations 2D/3D
+- Les utilitaires Quantum‑Era
+
+=== 2.1 Extensions MATLAB utilisées
+- `.m` — Scripts et fonctions MATLAB  
+  *Format principal du code source AppLAB.*
+
+=== 2.2 Rôle dans AppLAB
+- Exécution du pipeline complet  
+- Modules indépendants et testables  
+- Calculs matriciels haute précision  
+- Visualisation scientifique  
+- Architecture modulaire militaire-tech
+
+---
+
+== 3. Formats documentaires utilisés
+AppLAB utilise trois formats documentaires complémentaires : **Markdown**, **ReStructuredText**, et **AsciiDoc**.
+
+Chaque format a un rôle précis dans la gouvernance documentaire.
+
+---
+
+== 4. Markdown (.md)
+Markdown est utilisé pour :
+
+- README principaux  
+- Documentation légère  
+- Présentation GitHub  
+- Notes rapides  
+- Fichiers de configuration `.github/`
+
+=== 4.1 Avantages
+- Simple  
+- Compatible GitHub  
+- Lecture rapide  
+- Idéal pour les fichiers d’accueil
+
+=== 4.2 Emplacement typique
+- `README.md`  
+- `.github/README.md`  
+- `data/README.md`  
+- `src/README.md`
+
+---
+
+== 5. ReStructuredText (.rst)
+ReStructuredText est utilisé pour :
+
+- Documentation technique structurée  
+- Spécifications internes  
+- Sections nécessitant une hiérarchie stricte  
+- Compatibilité Sphinx (si ajout futur)
+
+=== 5.1 Avantages
+- Très structuré  
+- Idéal pour les guides techniques  
+- Support avancé des directives
+
+=== 5.2 Emplacement typique
+- Guides techniques internes  
+- Documentation mathématique  
+- Notes avancées
+
+---
+
+== 6. AsciiDoc (.adoc)
+AsciiDoc est le **format documentaire principal** d’AppLAB v2.5.0.
+
+Il est utilisé pour :
+
+- Documentation militaire-tech  
+- Fichiers de gouvernance  
+- Roadmaps  
+- Changelogs  
+- Documentation du pipeline  
+- Documentation des modules  
+- Pages internes du dossier `docs/`
+
+=== 6.1 Avantages
+- Très puissant  
+- Structuration avancée  
+- Table des matières automatique  
+- Sections numérotées  
+- Style professionnel  
+- Compatible GitHub et GitHub Pages
+
+=== 6.2 Fichiers .adoc dans AppLAB
+- `docs/README.adoc`  
+- `docs/MAINTAINERS.adoc`  
+- `docs/SECURITY.adoc`  
+- `docs/GOVERNANCE.adoc`  
+- `docs/ROADMAP.adoc`  
+- `docs/CHANGELOG.adoc`  
+- `docs/pipeline.adoc`  
+- `docs/modules.adoc`  
+- `docs/All-POLICE.adoc` *(ce fichier)*
+
+---
+
+== 7. Extensions et outils complémentaires
+AppLAB utilise également :
+
+=== 7.1 Extensions
+- `.m` — Code MATLAB  
+- `.md` — Documentation légère  
+- `.rst` — Documentation technique structurée  
+- `.adoc` — Documentation militaire-tech  
+- `.yml` — CI/CD GitHub Actions  
+- `.gitignore` — Gestion des exclusions  
+- `.mat` — Données MATLAB (optionnel)
+
+=== 7.2 Outils
+- MATLAB R2020+  
+- GitHub (CI/CD, Pages, Issues, PRs)  
+- Git (versioning, tags, releases)  
+- AsciiDoc toolchain  
+- VS Code / MATLAB Editor  
+- Linting MATLAB (préparation v3.0)
+
+---
+
+== 8. Standards Quantum‑Era
+AppLAB suit les standards Quantum‑Era :
+
+- Documentation multi‑formats  
+- Code modulaire  
+- Sécurité Zero‑Trust  
+- Gouvernance militaire-tech  
+- Cohérence documentaire  
+- Identité visuelle unifiée  
+- Structure professionnelle 2026
+
+---
+
+== 9. Objectif global
+Ce document garantit :
+
+- Une compréhension claire des formats utilisés  
+- Une cohérence documentaire totale  
+- Une gouvernance professionnelle  
+- Une base solide pour AppLAB v3.0
+
+AppLAB v2.5.0 constitue la version stable finale avant la transition vers les modules avancés (reconstruction dense, calibration, AI‑Bridge).
