@@ -1,9 +1,20 @@
-###### CODEOWNERS >> markdown 
-- AppLAB
+# ============================================================
+#  CODEOWNERS — AppLAB v2.0.0
+#  Quantum‑Era / Military‑Tech / Enterprise‑Grade Governance
+#  Discipline • Contrôle • Revue obligatoire • CI/CD intégrée
+# ============================================================
 
-# Les responsables du code et des revues
+# 👑 Propriétaire global du projet
+*                       @teremuhamblin
 
-* @teremuhamblin 
-/src/ @teremuhamblin 
-/data/ @teremuhamblin 
-/.github/ @teremuhamblin 
+# 🧠 Modules MATLAB (vision, géométrie, reconstruction)
+src/                    @teremuhamblin
+
+# 🖼️ Dataset & images d'exemple
+data/                   @teremuhamblin
+
+# ⚙️ GitHub Configuration Pack (CI/CD, sécurité, templates)
+.github/                @teremuhamblin
+
+# 📚 Documentation GitHub Pages & structure
+docs/                   @teremuhamblin
