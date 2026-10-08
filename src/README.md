@@ -1,122 +1,148 @@
-###### README.md >> markdown
-
-![Computer Vision](https://img.shields.io/badge/Computer_Vision-Modules-blue)
-![Sobel](https://img.shields.io/badge/Sobel-Operator-success)
-![Harris](https://img.shields.io/badge/Harris-Detector-success)
-![RANSAC](https://img.shields.io/badge/RANSAC-Robust-success)
-
-- Dossier src/ du projet `AppLAB`.  
-Il présente chaque module, son rôle, et la logique générale du dossier.
+`
+src/README.md
+`
 
 ---
 
-### 📁 Dossier src/
->src/ — ` *Modules MATLAB* **AppLAB** `
-- Le dossier `src/` contient l’ensemble des fonctions *MATLAB* utilisées par le projet AppLAB, un ensemble pédagogique et `pratique dédié aux bases de la vision par ordinateur`
-- Chaque fichier .m correspond à un module indépendant, réutilisable dans vos propres scripts ou dans main.m.
+📘 README.md — Dossier src/ (Quantum‑Era Edition)
+
+`markdown
+
+AppLAB — Dossier src/
+Version : v2.0.0 — Quantum‑Era Edition  
+Auteur : Teremu — Quantum‑Era Division
 
 ---
 
-### 📦 Contenu des modules
-### 1. **rgbtogray.m**
-Convertit une image couleur RGB en niveaux de gris selon une pondération standard.
-- Entrée : image RGB ou mono‑canal  
-- Sortie : image en niveaux de gris normalisée
+🎯 Mission du dossier src/
+
+Le dossier src/ contient l’ensemble des modules opérationnels du framework AppLAB.  
+Chaque fichier est autonome, documenté, optimisé, et suit la doctrine militaire‑tech :
+
+- Modularité stricte
+- Robustesse numérique
+- Lisibilité professionnelle
+- Absence de dépendances externes
+- Compatibilité MATLAB R2020+
+
+Ce dossier constitue le noyau tactique du pipeline de vision par ordinateur AppLAB.
 
 ---
 
-### 2. **sobel_xy.m**
-Calcule les gradients de Sobel en X et Y.
-- Sorties : Gx, Gy, Gmag (magnitude), Gdir (direction)
-- Utilisé pour l’extraction de contours et la détection de variations d’intensité
+📦 Modules principaux
+
+🔹 rgbtogray.m
+Conversion robuste RGB → niveaux de gris.  
+Supporte RGB, RGBA, grayscale.  
+Coefficients ITU‑R BT.601.
+
+🔹 sobel_xy.m
+Calcul des gradients Sobel (X, Y, magnitude, direction).  
+Version vectorisée + normalisation robuste.
+
+🔹 harris_detector.m
+Détecteur de coins Harris (version PRO).  
+Tenseur de structure stabilisé + non‑max suppression.
+
+🔹 punkt_korrespondenzen.m
+Extraction automatique de correspondances SURF.  
+Ratio test (Lowe) + filtrage des outliers.
+
+🔹 achtpunktalgorithmus.m
+Algorithme des 8 points (Hartley).  
+Normalisation isotropique + contrainte de rang 2.
+
+🔹 F_ransac.m
+Estimation robuste de la matrice fondamentale via RANSAC.  
+Filtrage des modèles dégénérés + inliers optimisés.
+
+🔹 TRausE.m
+Décomposition de la matrice essentielle en rotations et translation.  
+Version stabilisée (SO(3) garanti).
+
+🔹 rekonstruktion.m
+Triangulation linéaire (DLT).  
+Normalisation homogène + gestion des cas dégénérés.
+
+🔹 rueckprojektion.m
+Reprojection 3D → 2D.  
+Vectorisation complète + robustesse numérique.
 
 ---
 
-### 3. **harris_detector.m**
-Implémente le détecteur de coins de Harris.
-- Entrée : image en niveaux de gris  
-- Sortie : liste des coins détectés + carte de réponse Harris  
-- Inclut un filtrage gaussien et une suppression des non‑maxima
+🛠 Modules utilitaires (Quantum‑Era Enhancements)
+
+🔹 info_applab.m
+Affiche les informations du framework AppLAB.
+
+🔹 check_image.m
+Vérification robuste des images avant traitement.
+
+🔹 check_points.m
+Validation des correspondances 2D.
+
+🔹 plot_points.m
+Affichage militaire‑tech des points 2D.
+
+🔹 plotepipolarlines.m
+Tracé des droites épipolaires à partir de F.
+
+🔹 plot3dpoints.m
+Visualisation 3D des points reconstruits.
 
 ---
 
-### 4. **achtpunktalgorithmus.m**
-Algorithme des 8 points pour estimer la matrice fondamentale F.
-- Normalisation des points  
-- Construction de la matrice A  
-- SVD + contrainte de rang 2  
-- Dé‑normalisation finale
+🧩 Structure recommandée
+
+`
+src/
+ ├── rgbtogray.m
+ ├── sobel_xy.m
+ ├── harris_detector.m
+ ├── punkt_korrespondenzen.m
+ ├── achtpunktalgorithmus.m
+ ├── F_ransac.m
+ ├── TRausE.m
+ ├── rekonstruktion.m
+ ├── rueckprojektion.m
+ ├── info_applab.m
+ ├── check_image.m
+ ├── check_points.m
+ ├── plot_points.m
+ ├── plotepipolarlines.m
+ └── plot3dpoints.m
+`
 
 ---
 
-### 5. **F_ransac.m**
-Estimation robuste de la matrice fondamentale via RANSAC.
-- Sélection aléatoire de 8 correspondances  
-- Calcul de F  
-- Mesure d’erreur géométrique  
-- Sélection des inliers  
-- Retourne : F_best + indices des inliers
+⚙️ Standards de qualité
+
+AppLAB suit les standards Quantum‑Era :
+
+- Code modulaire et indépendant  
+- Documentation intégrée dans chaque module  
+- Robustesse numérique systématique  
+- Vectorisation prioritaire  
+- Nommage strict et cohérent  
+- Logs tactiques pour debugging  
+- Compatibilité CI/CD GitHub  
 
 ---
 
-### 6. **punkt_korrespondenzen.m**
-Extraction automatique de correspondances entre deux images.
-- Utilise SURF (détection + description)  
-- Appariement des descripteurs  
-- Sorties : x1, x2 (points correspondants)
+📚 Notes pour les développeurs
+
+- Tous les modules sont conçus pour être utilisés indépendamment.  
+- Le pipeline complet est défini dans main.m.  
+- Les modules utilitaires sont optionnels mais fortement recommandés.  
+- Les fonctions sont compatibles avec les pipelines avancés (F, E, RANSAC, reconstruction 3D).
 
 ---
 
-### 7. **rekonstruktion.m**
-Triangulation 3D à partir de deux vues.
-- Entrées : matrices de projection P1, P2 + correspondances  
-- Sortie : points 3D reconstruits dans le repère caméra
+🏁 Auteur
 
----
-
-### 8. **rueckprojektion.m**
-Reprojection de points 3D dans une image.
-- Entrée : matrice de projection + points 3D  
-- Sortie : coordonnées 2D projetées
-
----
-
-### 9. **TR_aus_E.m**
-Décomposition de la matrice essentielle E.
-- Sorties : deux rotations possibles (R1, R2)  
-- Une direction de translation t  
-- Utilisé pour la reconstruction stéréo et la pose relative
-
----
-
-### 🎯 Objectif du dossier
-Ce dossier regroupe les briques fondamentales nécessaires pour :
-- la détection de caractéristiques,
-- l’estimation de géométrie épipolaire,
-- la reconstruction 3D,
-- la reprojection,
-- la manipulation de matrices essentielles et fondamentales.
-
->Il constitue la base du pipeline AppLAB, utilisé dans main.m.
-
-### 📘 Utilisation
-1. Dans MATLAB :
-```matlab
-addpath('src');
-```
-
-2. Puis appeler les fonctions selon vos besoins :
-```matlab
-Igray = rgbtogray(I);
-[corners, R] = harris_detector(Igray, 3, 0.04, 0.01);
-[F, inliers] = F_ransac(x1, x2, 1e-3, 1000);
-```
-
----
-
-### 🛠️ Notes
-- Toutes les fonctions sont autonomes et peuvent être utilisées dans d’autres projets.
-- Les modules respectent une structure simple, lisible et pédagogique.
-- Le dossier src/ est conçu pour être compatible avec MATLAB R2018+.
+Teremu — Quantum‑Era Division  
+Architecte Vision & Systèmes MATLAB  
+France, 2026
+`
 
 ---
