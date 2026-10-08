@@ -54,32 +54,70 @@ Images d’exemple pour tests, benchmarks et démonstrations.
 
 ```text
 AppLAB/
-├─ README.md                 # Documentation principale (overview + usage)
-├─ .gitignore                # Exclusions Git
-├─ main.m                    # Script principal MATLAB
+├── main.m
 │
-├─ .github/                  # CI/CD & gouvernance GitHub
-│  ├─ workflows/             # Pipelines GitHub Actions
-│  ├─ ISSUE_TEMPLATE/        # Templates d’issues (optionnel)
-│  ├─ PULLREQUESTTEMPLATE/ # Template de PR (optionnel)
-│  ├─ .gitkeep               # Maintien des dossiers vides
+├── src/
+│   ├── rgb_to_gray.m
+│   ├── sobel_xy.m
+│   ├── harris_detector.m
+│   ├── punkt_korrespondenzen.m
+│   ├── achtpunktalgorithmus.m
+│   ├── F_ransac.m
+│   ├── TR_aus_E.m
+│   ├── rekonstruktion.m
+│   ├── rueckprojektion.m
+│   │
+│   ├── info_applab.m
+│   ├── check_image.m
+│   ├── check_points.m
+│   ├── plot_points.m
+│   ├── plot_epipolar_lines.m
+│   └── plot_3d_points.m
 │
-├─ src/                      # Modules MATLAB (vision & reconstruction)
-│  ├─ rgbtogray.m
-│  ├─ sobel_xy.m
-│  ├─ harris_detector.m
-│  ├─ achtpunktalgorithmus.m
-│  ├─ F_ransac.m
-│  ├─ punkt_korrespondenzen.m
-│  ├─ rekonstruktion.m
-│  ├─ rueckprojektion.m
-│  ├─ TRausE.m
+├── data/
+│   ├── soccer_4.jpg
+│   └── soccer_5.jpg
 │
-└─ data/                     # Images d'exemple
-   ├─ 1.jpg
-   ├─ 2.jpg
-   ├─ 3.jpg
-   └─ 4.jpg
+├── docs/
+│   ├── README.md
+│   ├── AppLAB.md
+│   ├── pipeline.md
+│   ├── architecture.md
+│   ├── modules/
+│   │   ├── rgb_to_gray.md
+│   │   ├── sobel_xy.md
+│   │   ├── harris_detector.md
+│   │   ├── punkt_korrespondenzen.md
+│   │   ├── achtpunktalgorithmus.md
+│   │   ├── F_ransac.md
+│   │   ├── TR_aus_E.md
+│   │   ├── rekonstruktion.md
+│   │   └── rueckprojektion.md
+│   └── assets/
+│       └── diagrams/
+│           ├── pipeline_flow.txt
+│           └── epipolar_geometry.txt
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── matlab_ci.yml
+│   │   ├── security.yml
+│   │   └── pages.yml
+│   │
+│   ├── ISSUE_TEMPLATE.md
+│   ├── PULL_REQUEST_TEMPLATE.md
+│   ├── CODEOWNERS
+│   ├── FUNDING.yml
+│   └── dependabot.yml
+│
+├── README.md
+├── SECURITY.md
+├── CONTRIBUTING.md
+├── ROADMAP.md
+├── CHANGELOG.md
+├── VERSION
+├── LICENSE
+└── .gitignore
 ```
 
 ---
