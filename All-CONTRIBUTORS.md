@@ -1,3 +1,4 @@
+###### All-CONTRIBUTORS.md >> markdown
 # 🛡️ All-CONTRIBUTORS
 ### Zero‑Trust Edition
 ###### **AppLAB v2.0.0 — Quantum‑Era / Military‑Tech**
